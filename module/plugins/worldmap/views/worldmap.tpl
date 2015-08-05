@@ -293,7 +293,7 @@
 	$(document).ready(function (){
 		// Uncomment to activate javascript console logs ...
 		// debugJs=true; 
-		$.getScript("https://maps.googleapis.com/maps/api/js?sensor=false&callback=mapInit", function() {
+		$.getScript("http://maps.googleapis.com/maps/api/js?sensor=false&callback=mapInit", function() {
 			apiLoaded=true;
 			if (debugJs) console.log("Google maps API loaded ...");
 		});
